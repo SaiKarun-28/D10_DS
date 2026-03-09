@@ -18,3 +18,12 @@ for x in range(3):
     for y in range(0,3):
         print(chr(x+y+65),end = ' ')
     print()
+    
+# printing stars *
+for a in range(4):
+    for b in range(4):
+        print('*',end = ' ')
+    print()
+    
+# a = outerloop
+# b = innerloop
