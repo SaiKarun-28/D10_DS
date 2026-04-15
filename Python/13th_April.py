@@ -1,6 +1,14 @@
+# Class with constructor
+
+'''
+Constructor is an specilaized methode which is used to initialize the attribute(Method using 'def')
+and it is called automatically at the time of object creation.
+'''
+
+
 class Car():
     
-    def __init__(self,name,color,brand,price,speed,break1):
+    def __init__(self,name,color,brand,price,speed,break1):   # Constructor
         self.name = name
         self.color = color
         self.brand = brand
